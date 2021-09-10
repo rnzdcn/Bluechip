@@ -119,6 +119,41 @@ nav.scrolled {
             font-weight: lighter;
         }
     }
+
+    //Call to Action No. 1
+    .cta-1 {
+        height: 600px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background: linear-gradient(
+            135deg,
+            rgba(240, 0, 14, 0.7),
+            rgba(22, 0, 231, 0.7)
+        );
+        .container {
+            height: inherit;
+            background: url("../assets/images/background/cta-img-1.png")
+                no-repeat right center;
+            background-size: contain;
+
+            h1 {
+                font-family: poppinsSemiBold;
+                font-size: clamp(60px, 5vw, 5rem);
+                text-shadow: 2px 2px #000000;
+            }
+
+            .d-grid {
+                .btn {
+                    background-color: #ad0303;
+                    color: white;
+                }
+                .btn:hover {
+                    background-color: #000;
+                    color: white;
+                }
+            }
+        }
+    }
 }
 
 //large
@@ -149,6 +184,47 @@ nav.scrolled {
             h6 {
                 font-family: poppinsLight;
                 text-align: center;
+            }
+        }
+
+        //Call to Action No. 1
+        .cta-1 {
+            height: 500px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background: linear-gradient(
+                135deg,
+                rgba(240, 0, 14, 0.3),
+                rgba(22, 0, 231, 0.3)
+            );
+
+            .container {
+                height: inherit;
+                height: inherit;
+                background: url("../assets/images/background/cta-img-1.png")
+                    no-repeat right center;
+                background-size: contain;
+
+                h1 {
+                    text-align: center;
+                    font-family: poppinsSemiBold;
+                    font-size: clamp(60px, 5vw, 5rem);
+                    text-shadow: 2px 2px #000000;
+                }
+                h4 {
+                    text-shadow: 2px 2px #000000;
+                }
+
+                .d-grid {
+                    .btn {
+                        background-color: #ad0303;
+                        color: white;
+                    }
+                    .btn:hover {
+                        background-color: #000;
+                        color: white;
+                    }
+                }
             }
         }
     }
@@ -198,6 +274,45 @@ nav.scrolled {
                 margin-top: 8px !important;
             }
         }
+
+        //Call to Action No. 1
+        .cta-1 {
+            height: 400px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background: linear-gradient(
+                135deg,
+                rgba(240, 0, 14, 0.3),
+                rgba(22, 0, 231, 0.3)
+            );
+
+            .container {
+                height: inherit;
+                height: inherit;
+                background: url("../assets/images/background/cta-img-1.png")
+                    no-repeat right center;
+                background-size: contain;
+
+                h1 {
+                    font-family: poppinsSemiBold;
+                    font-size: clamp(60px, 5vw, 5rem);
+                    text-shadow: 2px 2px #000000;
+                }
+                h4 {
+                    text-shadow: 2px 2px #000000;
+                }
+                .d-grid {
+                    .btn {
+                        background-color: #ad0303;
+                        color: white;
+                    }
+                    .btn:hover {
+                        background-color: #000;
+                        color: white;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -230,6 +345,7 @@ nav.scrolled {
             .container {
                 height: 100vh;
                 background-image: url("../assets/images/background/Phone-sm.png");
+
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
@@ -274,6 +390,46 @@ nav.scrolled {
             }
             .mt-5 {
                 margin-top: 8px !important;
+            }
+        }
+
+        //Call to Action No. 1
+        .cta-1 {
+            height: 350px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background: linear-gradient(
+                135deg,
+                rgba(240, 0, 14, 0.3),
+                rgba(22, 0, 231, 0.3)
+            );
+
+            .container {
+                height: inherit;
+                background: url("../assets/images/background/cta-img-1.png")
+                    no-repeat center;
+                background-size: contain;
+                h1 {
+                    text-align: center;
+                    font-family: poppinsSemiBold;
+                    font-size: clamp(60px, 5vw, 5rem);
+                    text-shadow: 2px 2px #000000;
+                }
+                h4 {
+                    text-align: center;
+                }
+                .d-grid {
+                    margin-top: 20px;
+                    align-self: center;
+                    .btn {
+                        background-color: #ad0303;
+                        color: white;
+                    }
+                    .btn:hover {
+                        background-color: #000;
+                        color: white;
+                    }
+                }
             }
         }
     }
