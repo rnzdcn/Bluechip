@@ -171,6 +171,22 @@ nav.scrolled {
                 font-family: poppinsLight;
                 text-align: center;
             }
+            .card {
+                .card-body {
+                    .card-title {
+                        font-family: poppinsSemiBold;
+                        margin-bottom: 20px;
+                    }
+                    .card-subtitle {
+                        font-family: poppins;
+                        margin-bottom: 10px;
+                    }
+                    .card-text {
+                        font-family: poppinsLight;
+                        font-size: 0.85rem;
+                    }
+                }
+            }
         }
     }
 }
