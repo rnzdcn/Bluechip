@@ -1,0 +1,280 @@
+@font-face {
+    font-family: poppins;
+    src: url(../assets/font/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppinsLight;
+    src: url(../assets/font/poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url(../assets/font/poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url(../assets/font/poppins/Poppins-Bold.ttf);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000 !important;
+}
+
+// NAVIGATION STYLE
+nav {
+    position: fixed !important;
+    width: 100%;
+    transition: background 0.5s;
+}
+nav.scrolled {
+    background: #000000 !important;
+}
+.navbar {
+    font-family: poppins;
+    .container {
+        .navbar-brand {
+            a {
+                text-decoration: none;
+                font-size: 3rem;
+            }
+            img {
+                height: 100px;
+                width: 100px;
+            }
+        }
+        .nav-link {
+            color: white !important;
+        }
+        form {
+            .input-group {
+                .form-control {
+                    border-right: none;
+                }
+                button {
+                    border: 1px solid #ced4da;
+                    border-left: none;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
+
+//Main Div
+.main {
+    // Hero Image Section
+    .hero-img-sec {
+        background: url("../assets/images/background/first_section_bg.jpg")
+            no-repeat center;
+        background-size: cover;
+        .container {
+            height: 100vh;
+            background: url("../assets/images/background/Phone.png") no-repeat;
+            background-position: right center;
+            background-size: contain;
+
+            .col {
+                .display-1 {
+                    font-family: poppinsBold;
+                    font-size: clamp(40px, 9vw, 90px);
+                    line-height: 1.2;
+                }
+                .display-5 {
+                    font-family: poppinsSemiBold;
+                    font-size: clamp(27px, 5vw, 50px);
+                }
+                p {
+                    font-family: poppinsLight;
+                    line-height: 2;
+                    font-size: clamp(15px, 3vw, 1.2rem);
+                }
+            }
+        }
+    }
+
+    //Customers Choice Section
+    .customers-section {
+        background: url("../assets/images/background/second_section_bg.jpg")
+            no-repeat center;
+        background-size: cover;
+        color: white;
+        h1 {
+            font-family: poppinsSemiBold;
+            text-align: center;
+        }
+        h6 {
+            font-family: poppinsLight;
+            text-align: center;
+        }
+        h4 {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        h5 {
+            margin: 10px 0;
+        }
+        p {
+            font-weight: lighter;
+        }
+    }
+}
+
+//large
+@media (max-width: 992px) {
+    .main {
+        // Hero Image Section
+        .hero-img-sec {
+            background: url("../assets/images/background/first_section_bg.jpg")
+                no-repeat center;
+            background-size: cover;
+            .container {
+                height: 100vh;
+                background: url("../assets/images/background/Phone.png")
+                    no-repeat;
+                background-position: right center;
+                background-size: contain;
+            }
+        }
+
+        //Customers Choice Section
+        .customers-section {
+            margin-top: none;
+            color: white;
+            h1 {
+                font-family: poppinsSemiBold;
+                text-align: center;
+            }
+            h6 {
+                font-family: poppinsLight;
+                text-align: center;
+            }
+        }
+    }
+}
+
+//medium
+@media (max-width: 768px) {
+    .main {
+        // Hero Image Section
+        .hero-img-sec {
+            background: none;
+            .container {
+                height: 87vh;
+                background: url("../assets/images/background/Phone-sm.png");
+                background-repeat: no-repeat;
+                background-position: right center;
+                background-size: contain;
+            }
+        }
+
+        //Customers Choice Section
+        .customers-section {
+            background: none;
+            color: white;
+            h1 {
+                font-family: poppinsSemiBold;
+                text-align: center;
+            }
+            h6 {
+                font-family: poppinsLight;
+                text-align: center;
+            }
+            .row {
+                margin-top: 50px;
+            }
+            h4 {
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            h5 {
+                margin: 10px 0;
+            }
+            p {
+                font-weight: lighter;
+            }
+            .mt-5 {
+                margin-top: 8px !important;
+            }
+        }
+    }
+}
+
+//small
+@media (max-width: 576px) {
+    .navbar {
+        font-family: poppins;
+        .container {
+            .navbar-brand {
+                a {
+                    text-decoration: none;
+                    font-size: 3rem;
+                }
+                img {
+                    height: 78px;
+                    width: 78px;
+                }
+            }
+            .navbar-toggler {
+                font-size: 1rem;
+                border: none;
+            }
+        }
+    }
+
+    .main {
+        // Hero Image Section
+        .hero-img-sec {
+            background: none;
+            .container {
+                height: 100vh;
+                background-image: url("../assets/images/background/Phone-sm.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+
+                .col {
+                    display: flex;
+                    justify-content: center;
+                    align-items: start;
+                    flex-direction: column;
+
+                    .__custom-btn {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        //Customers Choice Section
+        .customers-section {
+            background: none;
+            color: white;
+            h1 {
+                font-family: poppinsSemiBold;
+                text-align: center;
+            }
+            h6 {
+                font-family: poppinsLight;
+                text-align: center;
+            }
+            .row {
+                margin-top: 50px;
+            }
+            h4 {
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            h5 {
+                margin: 10px 0;
+            }
+            p {
+                font-weight: lighter;
+            }
+            .mt-5 {
+                margin-top: 8px !important;
+            }
+        }
+    }
+}
