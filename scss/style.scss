@@ -275,6 +275,73 @@ nav.scrolled {
             }
         }
     }
+
+    //Feedbacks
+    .feedback-section {
+        margin-top: 150px;
+        .container {
+            h1 {
+                font-family: poppinsSemiBold;
+                text-align: center;
+            }
+            h6 {
+                font-family: poppinsLight;
+            }
+            .carousel {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                .carousel-inner {
+                    .carousel-item {
+                        img {
+                            height: 300px;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //Footer
+    .footer-section {
+        footer {
+            .container {
+                margin-bottom: 50px;
+                .row {
+                    .col-6 {
+                        ul {
+                            li {
+                                h5 {
+                                    text-transform: uppercase;
+                                    font-family: poppinsSemiBold;
+                                }
+                                img {
+                                    height: 40px;
+                                    margin: 8px 0;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .container {
+            margin-bottom: 50px;
+        }
+    }
+
+    // Last Background Effect
+
+    .last-bg {
+        background-image: url("../assets/images/background/lastpart_bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 //large
@@ -393,6 +460,41 @@ nav.scrolled {
                 }
             }
         }
+
+        //Footer
+        .footer-section {
+            footer {
+                .container {
+                    margin-bottom: 50px;
+                    display: flex;
+                    justify-content: center;
+                    .row {
+                        padding: 0 90px;
+                        .col-6 {
+                            ul {
+                                li {
+                                    h5 {
+                                        text-transform: uppercase;
+                                        font-family: poppinsSemiBold;
+                                    }
+                                    img {
+                                        height: 40px;
+                                        margin: 8px 0;
+                                    }
+                                    a {
+                                        text-decoration: none;
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .container {
+                margin-bottom: 50px;
+            }
+        }
     }
 }
 
@@ -481,6 +583,12 @@ nav.scrolled {
             }
         }
 
+        //Our Products
+        .products-section {
+            background: none;
+            margin-bottom: 50px;
+        }
+
         //Call to Action No. 2
         .cta-2 {
             height: 400px;
@@ -543,6 +651,71 @@ nav.scrolled {
                     }
                 }
             }
+        }
+
+        //Feedbacks
+        .feedback-section {
+            margin-top: 100px;
+            .container {
+                h1 {
+                    font-family: poppinsSemiBold;
+                    text-align: center;
+                }
+                h6 {
+                    font-family: poppinsLight;
+                }
+                .carousel {
+                    margin-top: 80px;
+                    margin-bottom: 80px;
+                    .carousel-inner {
+                        .carousel-item {
+                            img {
+                                height: 250px;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //Footer
+        .footer-section {
+            footer {
+                .container {
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: center;
+                    .row {
+                        padding: 0 50px;
+                        .col-6 {
+                            ul {
+                                li {
+                                    h5 {
+                                        text-transform: uppercase;
+                                        font-family: poppinsSemiBold;
+                                    }
+                                    img {
+                                        height: 40px;
+                                        margin: 8px 0;
+                                    }
+                                    a {
+                                        text-decoration: none;
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .container {
+                margin-bottom: 50px;
+            }
+        }
+
+        .last-bg {
+            background: none;
         }
     }
 }
@@ -776,6 +949,68 @@ nav.scrolled {
                         width: 50%;
                     }
                 }
+            }
+        }
+
+        //Feedbacks
+        .feedback-section {
+            margin-top: 50px;
+            .container {
+                h1 {
+                    font-family: poppinsSemiBold;
+                    text-align: center;
+                }
+                h6 {
+                    font-family: poppinsLight;
+                }
+                .carousel {
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    .carousel-inner {
+                        .carousel-item {
+                            img {
+                                height: 170px;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //Footer
+        .footer-section {
+            footer {
+                .container {
+                    margin-top: 50px;
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: center;
+                    .row {
+                        padding: 0 10px;
+                        .col-6 {
+                            ul {
+                                li {
+                                    h5 {
+                                        text-transform: uppercase;
+                                        font-family: poppinsSemiBold;
+                                    }
+                                    img {
+                                        height: 28px;
+                                        margin: 8px 0;
+                                    }
+                                    a {
+                                        text-decoration: none;
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .container {
+                margin-bottom: 50px;
             }
         }
     }
