@@ -248,6 +248,33 @@ nav.scrolled {
             }
         }
     }
+
+    //Our Partners
+    .our-partners-section {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        .container {
+            h1 {
+                font-family: poppinsSemiBold;
+                text-align: center;
+            }
+            h6 {
+                font-family: poppinsLight;
+            }
+            .row {
+                margin-top: 100px;
+                img {
+                    height: 80px;
+                }
+                .col-lg-6,
+                .col-md-6,
+                .col-sm-6 {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
 }
 
 //large
@@ -699,6 +726,33 @@ nav.scrolled {
                     .col-xs-12 {
                         flex: 0 0 auto;
                         width: 100%;
+                    }
+                }
+            }
+        }
+
+        //Our Partners
+        .our-partners-section {
+            margin-top: 40px;
+            margin-bottom: 100px;
+            .container {
+                h1 {
+                    font-family: poppinsSemiBold;
+                    text-align: center;
+                }
+                h6 {
+                    font-family: poppinsLight;
+                }
+                .row {
+                    margin-top: 40px;
+                    img {
+                        height: 50px;
+                    }
+                    .col-xs-6 {
+                        display: flex;
+                        justify-content: center;
+                        flex: 0 0 auto;
+                        width: 50%;
                     }
                 }
             }
