@@ -523,6 +523,27 @@ nav.scrolled {
                 }
             }
         }
+
+        //Our Partners
+        .our-partners-section {
+            margin-top: 40px;
+            margin-bottom: 100px;
+            .container {
+                h1 {
+                    font-family: poppinsSemiBold;
+                    text-align: center;
+                }
+                h6 {
+                    font-family: poppinsLight;
+                }
+                .row {
+                    margin-top: 40px;
+                    img {
+                        height: 80px;
+                    }
+                }
+            }
+        }
     }
 }
 
